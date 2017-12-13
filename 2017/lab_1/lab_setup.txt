@@ -1,0 +1,3 @@
+activate tensorflow
+pip install jupyter
+ipython kernel install —-name "tensorflow" -—user

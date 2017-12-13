@@ -1,0 +1,168 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Deep Learning Lab - Assignment 1
+\end_layout
+
+\begin_layout Section*
+Before We Start
+\end_layout
+
+\begin_layout Standard
+In order to use Tensorflow on your personal computer, the recommended method
+ is to install Anaconda (https://www.anaconda.com/download), Anaconda is a
+ Python distribution that already includes libraries such as Numpy, Matplotlib
+ and Jupyter (this way you won't have to install them manually).
+ Next, you should install Tensorflow (https://www.tensorflow.org/install/).
+ If all went well you should be able to run a jupyter notebook in the path
+ of your project by first nevigating to that folder in cmd/terminal, and
+ then running 
+\begin_inset Quotes eld
+\end_inset
+
+jupyter notebook
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Down To Business
+\end_layout
+
+\begin_layout Standard
+In class we have seen several models: Perceptron, Logistic Regression and
+ Multi Layered Perceptron (or Neural Nets).
+ You already have the code for Logistic Regression in the slides, your assignmen
+t is to use this code to implement a Multi Layered Perceptron.
+ Your model should have 
+\series bold
+at least
+\series default
+ 1 hidden layer.
+\end_layout
+
+\begin_layout Standard
+The goal of this assignment is to get you acquainted with neural nets, Tensorflo
+w, and the process of optimizing a model for a certain task.
+ More specifically, you should implement 3 different neural networks and
+ write a report in pdf format.
+ In your report you should write the hyper-parameters you used in each of
+ the 3 neural networks and their metrics:
+\end_layout
+
+\begin_layout Enumerate
+the model architecture (amount of layers, size of layers)
+\end_layout
+
+\begin_layout Enumerate
+the learning rate
+\end_layout
+
+\begin_layout Enumerate
+the optimization algorithm (sgd, adam, etc)
+\end_layout
+
+\begin_layout Enumerate
+the loss function
+\end_layout
+
+\begin_layout Enumerate
+the batch size
+\end_layout
+
+\begin_layout Enumerate
+the amount of epochs
+\end_layout
+
+\begin_layout Enumerate
+the activation functions
+\end_layout
+
+\begin_layout Enumerate
+regularization/dropout
+\end_layout
+
+\begin_layout Enumerate
+a plot of training loss and validation loss (to check for overfitting)
+\end_layout
+
+\begin_layout Enumerate
+a plot of training accuracy and validation accuracy (to check for overfitting)
+\end_layout
+
+\end_body
+\end_document
